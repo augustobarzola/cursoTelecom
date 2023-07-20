@@ -1,0 +1,433 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.tweet{
+    border: 0px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    font-size: 24px;
+    font: bold;
+    font-weight: 700;
+    border-bottom: 1px solid #71767b;
+    margin-bottom: 20px;
+  }
+  .nameUsuario{
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+  }
+  .tituloHeader{
+    font-weight: 700;
+    font-size: 20px;
+  }
+.childSection{
+    display: inline-block;
+}
+.fechaYReproducciones{
+    display: flex; 
+    justify-content: space-around;
+}
+
+.left-box{
+    border-right: 1px solid #71767b;
+    font-size: 24px;
+   /* position:sticky;*/
+    top:0;
+    height: 50vh;
+    
+}
+.center-box{
+    border-right: 1px solid #71767b;
+    border-left:  1px solid #71767b;;
+   font-size: 17px;
+    
+}
+.lineaDivisoriaHorizontal{
+    height: 0.1em;
+    background-color: #71767b;
+    
+
+}
+.footerTweet{
+ border-bottom: 1px solid white;
+}
+.fechaYHora{
+    color:#71767b;
+    font-size: 15px;
+}
+.accountName{
+    font-weight: 400;
+    color:#71767b;
+}
+.clickable{
+    color: #71767b;
+    cursor: pointer;
+}
+.unclickable{
+    color: #71767b;
+}
+.iconosDelFinal{
+display: flex;
+justify-content: space-between;
+margin-top: 5px;
+margin-bottom: 10px;
+
+
+
+}
+.retweetYCitas{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-comment:hover{
+    color: rgb(48, 199, 250) !important;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.fa-heart:hover{
+    color: red !important;
+    font-weight: 400;
+    border-radius: 25px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.fa-retweet:hover{
+    color: green !important;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.fa-bookmark:hover{
+    color: rgb(48, 199, 250) !important;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.fa-arrow-up-from-bracket:hover{
+    color: rgb(48, 199, 250)!important;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.leftAccess{
+    display: flex; align-items: flex-start; flex-direction: column;
+}
+.textContainer{
+    display: flex; align-items: flex-start; flex-direction: column;
+}
+
+.rightTitle{
+    font-weight: 800 ;
+    font-size: 20px;
+    color: white;
+}
+.nuevoTwitter{
+    
+    font-weight: 400 normal;
+    font-size: 13px;
+    border-radius: 25px;
+    border: 1px solid #71767b;
+    color: #71767b;
+    justify-items: stretch;
+    padding: 12px;
+   
+   }
+.regiGoogle{
+    border-radius: 25px;
+    font-weight: 600;
+    background: white;
+    color: black;
+   padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.regiApple{
+    border-radius: 25px;
+    background: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
+}
+.newAccount{
+    border-radius: 25px;
+    background: white;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.borderLeft{
+    font-weight: 400 normal;
+    font-size: 13px;
+    border-radius: 25px;
+    border: 1px solid #71767b;
+    color: #71767b;
+    justify-items: stretch;
+    padding: 12px;
+}
+.Reproducciones{
+    font-weight: 400 normal;
+    font-size: 13px;
+    color: #71767b;
+}
+.pasando{
+    font-weight: 400 normal;
+    font-size: 13px;
+    border-radius: 25px;
+    color: #71767b;
+    background-color: #2e2f30;
+    justify-items: stretch;
+    padding: 12px;
+}
+.childBox+.childBox{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.datoPersona{
+    font-weight: 400;
+    font-size: 15px;
+    display:flex;
+    justify-content: flex-start;
+    justify-content: space-between; 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+.btnSeguir{
+    border-radius: 25px;
+    font-weight: 600;
+    background: white;
+    color: black;
+   padding: 5px;
+    font-size: 15px;
+   cursor: pointer;
+   width: 100px;
+}
+
+.tagData.cantTweets{
+    font-weight: 400;
+    font-size: 12px;
+}
+.tagName{
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    margin-left: auto;
+    margin-right: 0;
+    align-content: start;
+    
+}
+.btnTweet{
+    size: 25%;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.tagData{
+    margin-right: 0;
+    margin-left: auto;
+    word-spacing: 5px;
+    text-align: left;
+   
+}
+.imagenYSeguir {
+    display: flex; 
+    justify-content: space-between;
+   
+    align-items: center;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+  }
+  .image2 {
+    position: sticky;
+    top: 20px;
+    margin-bottom: 60px;
+  }
+  .account{
+    font-weight: 800;
+  }
+  .leftButton:hover{
+    background-color: #0a0a0a23;
+    opacity: 0.8;
+    border-radius: 25px;
+    
+  }
+  .leftButton{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .fa-arrow-left:hover{
+    color: white !important;
+    cursor: pointer;
+    
+}
+.textoNormal{
+    font-weight: 400;
+    font-size: 15px;
+}
+.iconDescription{
+    color: #71767b;
+    font-size: 15px;
+    
+
+}
+
+.number{
+    font-weight: 700;
+    color: white;
+}
+.followers{
+    font-weight: 400;
+    color: #71767b;
+    font-size: 15px;
+
+}
+.followers:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+}
+.btnTweet:focus{
+    border-bottom: 4px solid rgb(48, 199, 250);
+}
+.btnTweet:hover{
+    background-color: #0a0a0a23;
+    opacity: 0.8;  
+    cursor: pointer;
+}
+.emptyTweet{
+    height: 50px;
+}
+.persona:hover{
+    background-color: #0a0a0a23;
+ opacity: 0.8;
+}
+.showMore{
+    color:#0758af;
+    cursor: pointer;
+
+}
+.showMore:hover{
+    background-color: #0a0a0a23;
+    opacity: 0.8;
+   
+}
+.icoImagen{
+    margin-left: 0;
+    margin-right: 0;
+    left: 100000px;
+
+}
+.imagenYSeguir{
+    text-align: left;
+}
+.imgTweet{
+   
+    border-radius: 25px;
+    width: 100%;
+    max-width: 450px;
+    max-height: 300px;
+    height: auto;
+}
+.leftButton{
+    position: relative;
+    right: 0px;
+}
+.headerTweet{
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+     justify-content: space-between;
+}
+.headerImage{
+    text-align: left;
+    padding-top: 60px;
+}
+.hashtag{
+    color: #0758af;
+}
+.hashtag:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fa-chart-simple:hover{
+    color: rgba(17, 97, 189, 0.616) !important;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.tweetText{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.borderInvisi{
+    border-radius: 50px;
+    background-color:  #0a0a0a23;
+   
+    
+   
+}
+.datoPersona:hover{
+    background-color: #0a0a0a23;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.condicionesServicio{
+    font-weight: 400;
+    font-size: 13px ;
+    color: #71767b;
+    text-align: justify;
+    text-justify: inter-word;
+  
+        position:sticky;
+        top:0;
+        height: 100vh;
+  
+}
+
+
+.tendenciaBox{
+    margin-bottom: 5px;
+}
+.tendenciaBox:hover{
+    background-color: #0a0a0a23;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.personasRelevantes{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar{
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    position:fixed;
+   
+    width: 545px;
+    z-index: 999;
+    height: 100px;
+    }
+
+
+
+
